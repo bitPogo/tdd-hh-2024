@@ -1,0 +1,21 @@
+build:
+  - .github/**/*
+
+scripts:
+  - buildSrc/src/main/kotlin/**/script/**/*.kts
+
+dependencies:
+  - buildSrc/**/*
+  - gradlePlugin/**/*
+
+documentation:
+  - docs/**/*
+  - README.md
+  - LICENSE
+
+# Library
+example-android-application:
+  - example-android-application/**/*
+
+kmp-lib:
+  - kmp-lib/**/*
